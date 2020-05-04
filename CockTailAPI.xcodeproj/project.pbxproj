@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB128789246055D6007BAB0F /* CockTailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB128788246055D6007BAB0F /* CockTailViewController.swift */; };
+		AB12878B246063C4007BAB0F /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB12878A246063C4007BAB0F /* UIViewControllerExt.swift */; };
 		ABED1ABF245FB44200DE072F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABED1ABE245FB44200DE072F /* AppDelegate.swift */; };
 		ABED1AC1245FB44200DE072F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABED1AC0245FB44200DE072F /* SceneDelegate.swift */; };
-		ABED1AC3245FB44200DE072F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABED1AC2245FB44200DE072F /* ViewController.swift */; };
 		ABED1AC6245FB44200DE072F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABED1AC4245FB44200DE072F /* Main.storyboard */; };
 		ABED1AC8245FB44400DE072F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABED1AC7245FB44400DE072F /* Assets.xcassets */; };
 		ABED1ACB245FB44400DE072F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABED1AC9245FB44400DE072F /* LaunchScreen.storyboard */; };
+		ABED1ADA245FB4C500DE072F /* MyTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABED1AD9245FB4C500DE072F /* MyTools.swift */; };
+		ABED1ADC245FB57200DE072F /* SearchCocktail.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABED1ADB245FB57200DE072F /* SearchCocktail.swift */; };
+		ABED1ADE245FB70300DE072F /* SearchModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABED1ADD245FB70300DE072F /* SearchModelController.swift */; };
+		ABED1AE0245FB86700DE072F /* DrinkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABED1ADF245FB86700DE072F /* DrinkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB128788246055D6007BAB0F /* CockTailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CockTailViewController.swift; sourceTree = "<group>"; };
+		AB12878A246063C4007BAB0F /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		ABED1ABB245FB44200DE072F /* CockTailAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CockTailAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABED1ABE245FB44200DE072F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABED1AC0245FB44200DE072F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ABED1AC2245FB44200DE072F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ABED1AC5245FB44200DE072F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABED1AC7245FB44400DE072F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABED1ACA245FB44400DE072F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABED1ACC245FB44400DE072F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABED1AD9245FB4C500DE072F /* MyTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTools.swift; sourceTree = "<group>"; };
+		ABED1ADB245FB57200DE072F /* SearchCocktail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCocktail.swift; sourceTree = "<group>"; };
+		ABED1ADD245FB70300DE072F /* SearchModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModelController.swift; sourceTree = "<group>"; };
+		ABED1ADF245FB86700DE072F /* DrinkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,76 @@
 		ABED1ABD245FB44200DE072F /* CockTailAPI */ = {
 			isa = PBXGroup;
 			children = (
-				ABED1ABE245FB44200DE072F /* AppDelegate.swift */,
-				ABED1AC0245FB44200DE072F /* SceneDelegate.swift */,
-				ABED1AC2245FB44200DE072F /* ViewController.swift */,
-				ABED1AC4245FB44200DE072F /* Main.storyboard */,
-				ABED1AC7245FB44400DE072F /* Assets.xcassets */,
-				ABED1AC9245FB44400DE072F /* LaunchScreen.storyboard */,
-				ABED1ACC245FB44400DE072F /* Info.plist */,
+				ABED1AD6245FB48F00DE072F /* Model */,
+				ABED1AD5245FB48100DE072F /* View */,
+				ABED1AD2245FB45000DE072F /* Controllers */,
+				ABED1AD8245FB4B200DE072F /* MyTools */,
+				ABED1AD7245FB4A400DE072F /* Resources */,
 			);
 			path = CockTailAPI;
+			sourceTree = "<group>";
+		};
+		ABED1AD2245FB45000DE072F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ABED1AD4245FB46600DE072F /* ModelController */,
+				ABED1AD3245FB45E00DE072F /* ViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ABED1AD3245FB45E00DE072F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AB128788246055D6007BAB0F /* CockTailViewController.swift */,
+				AB12878A246063C4007BAB0F /* UIViewControllerExt.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		ABED1AD4245FB46600DE072F /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				ABED1ADD245FB70300DE072F /* SearchModelController.swift */,
+			);
+			path = ModelController;
+			sourceTree = "<group>";
+		};
+		ABED1AD5245FB48100DE072F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ABED1AC4245FB44200DE072F /* Main.storyboard */,
+				ABED1AC9245FB44400DE072F /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ABED1AD6245FB48F00DE072F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABED1ADB245FB57200DE072F /* SearchCocktail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ABED1AD7245FB4A400DE072F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABED1ABE245FB44200DE072F /* AppDelegate.swift */,
+				ABED1AC0245FB44200DE072F /* SceneDelegate.swift */,
+				ABED1AC7245FB44400DE072F /* Assets.xcassets */,
+				ABED1ACC245FB44400DE072F /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ABED1AD8245FB4B200DE072F /* MyTools */ = {
+			isa = PBXGroup;
+			children = (
+				ABED1AD9245FB4C500DE072F /* MyTools.swift */,
+				ABED1ADF245FB86700DE072F /* DrinkError.swift */,
+			);
+			path = MyTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +209,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABED1AC3245FB44200DE072F /* ViewController.swift in Sources */,
 				ABED1ABF245FB44200DE072F /* AppDelegate.swift in Sources */,
 				ABED1AC1245FB44200DE072F /* SceneDelegate.swift in Sources */,
+				AB12878B246063C4007BAB0F /* UIViewControllerExt.swift in Sources */,
+				ABED1ADA245FB4C500DE072F /* MyTools.swift in Sources */,
+				AB128789246055D6007BAB0F /* CockTailViewController.swift in Sources */,
+				ABED1AE0245FB86700DE072F /* DrinkError.swift in Sources */,
+				ABED1ADC245FB57200DE072F /* SearchCocktail.swift in Sources */,
+				ABED1ADE245FB70300DE072F /* SearchModelController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CockTailAPI/Info.plist;
+				INFOPLIST_FILE = CockTailAPI/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CockTailAPI/Info.plist;
+				INFOPLIST_FILE = CockTailAPI/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
